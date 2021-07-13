@@ -1,1 +1,0 @@
-# Summer-Tech-Photo-Display--STARTER-Johnson-Chen--NYC
