@@ -1,0 +1,70 @@
+body {
+  background-color: #EDF2F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+#inner_container {
+  width: 80%;
+  height: 80%;
+  border: 10px solid gray;
+  box-shadow: 0px 0px 36px -22px #2B2D42;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.reactions {
+    display: flex;
+}
+
+.heart {
+    width: 70px;
+  	padding: 0px 10px;
+}
+
+.like {
+    display: none;
+}
+
+#button_container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 25%;
+  height: 90%;
+  font-size: 16px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #EF233C;
+}
+
+button:hover {
+  transition: 0.05s;
+  background-color: #D90429;
+  transform: rotateZ(-10deg);
+  box-shadow: 0 0 30px -10px #D90429;
+}
+
+button:active {
+  transform: translateY(20px);
+  transform: rotateZ(10deg);
+}
